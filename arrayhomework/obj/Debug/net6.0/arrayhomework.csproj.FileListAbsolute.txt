@@ -1,0 +1,14 @@
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\bin\Debug\net6.0\arrayhomework.exe
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\bin\Debug\net6.0\arrayhomework.deps.json
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\bin\Debug\net6.0\arrayhomework.runtimeconfig.json
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\bin\Debug\net6.0\arrayhomework.dll
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\bin\Debug\net6.0\arrayhomework.pdb
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\arrayhomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\arrayhomework.AssemblyInfoInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\arrayhomework.AssemblyInfo.cs
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\arrayhomework.csproj.CoreCompileInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\arrayhomework.dll
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\refint\arrayhomework.dll
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\arrayhomework.pdb
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\arrayhomework.genruntimeconfig.cache
+C:\Users\seidb\OneDrive\Masaüstü\arrayhomework\arrayhomework\arrayhomework\obj\Debug\net6.0\ref\arrayhomework.dll
