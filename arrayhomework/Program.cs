@@ -24,23 +24,52 @@
 
 #endregion
 
-#region task1 new
-Console.WriteLine("Reqemleri daxil edin");
-int num1=int.Parse(Console.ReadLine());
-int num2 = int.Parse(Console.ReadLine());
-int sum=num1+ num2;
-int m= 10;
-int count = 1;
-while(sum>=m)
+#region task1 new metod
+//Console.WriteLine("Reqemleri daxil edin");
+//int num1=int.Parse(Console.ReadLine());
+//int num2 = int.Parse(Console.ReadLine());
+//int sum=num1+ num2;
+//int m= 10;
+//int count = 1;
+//while(sum>=m)
+//{
+//    if (sum / m != 0)
+//    {
+//        sum = sum / m;
+//        count += 1;
+//    }
+//}
+//Console.Write("daxil etdiyiniz reqemlerin cemi: ");
+//Console.Write(count);
+//Console.WriteLine(" mertebelidir");
+
+#endregion
+
+#region cupboard and door
+
+Console.WriteLine("Skafin olculerini daxil edin");
+Console.Write("eni:");
+int eni = int.Parse(Console.ReadLine());
+Console.Write("hundurluyu:");
+int hundurluk = int.Parse(Console.ReadLine());
+Console.Write("uzunluq:");
+int uzunluq = int.Parse(Console.ReadLine());
+
+int e = 100;
+int h = 200;
+
+if ((eni <= e && hundurluk <= h) || (eni <= e && uzunluq <= h) || (uzunluq <= e && hundurluk <= h) || (uzunluq <= e && eni <= h)
+    || (hundurluk <= e && uzunluq <= h) || (hundurluk <= e && eni <= h)
+    )
 {
-    if (sum / m != 0)
-    {
-        sum = sum / m;
-        count += 1;
-    }
+    Console.WriteLine("skaf qapidan kecir");
 }
-Console.Write("daxil etdiyiniz reqemlerin cemi:");
-Console.Write(count);
-Console.WriteLine(" mertebelidir");
+
+else
+{
+    Console.WriteLine("skaf qapidan kecmir");
+
+}
+
 
 #endregion
