@@ -2,24 +2,24 @@
 
 #region homework task1
 
-//Console.WriteLine("reqemleri daxil edin:");
-//int num1 = int.Parse(Console.ReadLine());
-//int num2 = int.Parse(Console.ReadLine());
-//int sum=num1+ num2;
+Console.WriteLine("reqemleri daxil edin:");
+int num1 = int.Parse(Console.ReadLine());
+int num2 = int.Parse(Console.ReadLine());
+int sum = num1 + num2;
 
-//    if (sum <= 99 && sum >=10)
-//    {
-//        Console.WriteLine("Cem 2 reqemli ededdir");
-//    }
+if (sum <= 99 && sum >= 10)
+{
+    Console.WriteLine("Cem 2 reqemli ededdir");
+}
 
-//    else if (sum>=100 && sum <= 999)
-//    {
-//        Console.WriteLine("Cem 3 reqemli ededdir");
-//    }
-//    else
-//    {
-//        Console.WriteLine("nezere alinmayib");
-//    }
+else if (sum >= 100 && sum <= 999)
+{
+    Console.WriteLine("Cem 3 reqemli ededdir");
+}
+else
+{
+    Console.WriteLine("nezere alinmayib");
+}
 
 
 
@@ -128,24 +128,50 @@
 #endregion
 
 #region MYTASK2 BUBBLESORT
-int[] numbers = { 13, 24, 5, 18, 9 };
 
-for (int i = 0; i < numbers.Length-1; i++)
-{
-    for (int j = 0; j < numbers.Length - 1; j++)
-    {
-        if (numbers[j] > numbers[j+1])
-        {
-            int temp = numbers[j];
-            numbers[j] = numbers[j+1];
-            numbers[j+1] = temp;
-        }
-    }
-    
-}
-Console.Write(numbers[0]);
-Console.Write(numbers[1]);
-Console.Write(numbers[2]);
-Console.Write(numbers[3]);
-Console.Write(numbers[4]);
+//int[] numbers = { 13, 24, 5, 18, 9 };
+
+//for (int i = 0; i < numbers.Length - 1; i++)
+//{
+//    for (int j = 0; j < numbers.Length - 1; j++)
+//    {
+//        if (numbers[j] > numbers[j + 1])
+//        {
+//            int temp = numbers[j];
+//            numbers[j] = numbers[j + 1];
+//            numbers[j + 1] = temp;
+//        }
+
+//    }
+
+//}
+//for (int i = 0;i < numbers.Length; i++)
+//{
+//    Console.Write(numbers[i]);
+//    Console.Write(",");
+//}
+
+#endregion
+
+#region selection sort
+//int[] numbers = { 4, 12, 18, 11, 5, 25, 1 };
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    int key = i;
+//    for (int j = i + 1; j < numbers.Length; j++)
+//    {
+//        if (numbers[key] > numbers[j])
+//            key = j;
+//    }
+//    int temp = numbers[key];
+//    numbers[key] = numbers[i];
+//    numbers[i] = temp;
+//}
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    Console.Write(numbers[i]);
+//    Console.Write(",");
+//}
+
+
 #endregion
