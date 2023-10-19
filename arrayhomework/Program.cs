@@ -77,52 +77,75 @@
 
 #region mytask
 
-using System;
-while (true)
-{
+//using System;
+//while (true)
+//{
 
 
-Console.WriteLine("Ededi daxi et");
+//Console.WriteLine("Ededi daxi et");
 
-int num1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Prosesi daxil et"," * ", " - ", " / ", " + " );
-string prosess= Console.ReadLine(); 
-Console.WriteLine("Ededi daxi et");
-int num2 = int.Parse(Console.ReadLine());
-string[] proses = { "*", "-", "/", "+" };
-int result;
-if (prosess == proses[0])
+//int num1 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Prosesi daxil et"," * ", " - ", " / ", " + " );
+//string prosess= Console.ReadLine(); 
+//Console.WriteLine("Ededi daxi et");
+//int num2 = int.Parse(Console.ReadLine());
+//string[] proses = { "*", "-", "/", "+" };
+//int result;
+//if (prosess == proses[0])
+//{
+//    result = num1 * num2;
+//    Console.Write("Cavab:");
+//    Console.WriteLine(result);
+//        Console.WriteLine();
+//    }
+//else if (prosess == proses[1])
+//{
+//    result = num1 - num2;
+//    Console.Write("Cavab:");
+//    Console.WriteLine(result);
+//        Console.WriteLine();
+//    }
+//else if (prosess == proses[2])
+//{
+//    result = num1 / num2;
+//    Console.Write("Cavab:");
+//    Console.WriteLine(result);
+//        Console.WriteLine();
+//    }
+//else if (prosess == proses[3])
+//{
+//    result=num1 + num2;
+//    Console.Write("Cavab:");
+//    Console.WriteLine(result);
+//        Console.WriteLine();
+//    }
+//else
+//{
+//    Console.WriteLine("Duzgun daxil etmediniz");
+//        Console.WriteLine();
+//}
+//}
+#endregion
+
+#region MYTASK2 BUBBLESORT
+int[] numbers = { 13, 24, 5, 18, 9 };
+
+for (int i = 0; i < numbers.Length-1; i++)
 {
-    result = num1 * num2;
-    Console.Write("Cavab:");
-    Console.WriteLine(result);
-        Console.WriteLine();
+    for (int j = 0; j < numbers.Length - 1; j++)
+    {
+        if (numbers[j] > numbers[j+1])
+        {
+            int temp = numbers[j];
+            numbers[j] = numbers[j+1];
+            numbers[j+1] = temp;
+        }
     }
-else if (prosess == proses[1])
-{
-    result = num1 - num2;
-    Console.Write("Cavab:");
-    Console.WriteLine(result);
-        Console.WriteLine();
-    }
-else if (prosess == proses[2])
-{
-    result = num1 / num2;
-    Console.Write("Cavab:");
-    Console.WriteLine(result);
-        Console.WriteLine();
-    }
-else if (prosess == proses[3])
-{
-    result=num1 + num2;
-    Console.Write("Cavab:");
-    Console.WriteLine(result);
-        Console.WriteLine();
-    }
-else
-{
-    Console.WriteLine("Duzgun daxil etmediniz");
-        Console.WriteLine();
+    
 }
-}
+Console.Write(numbers[0]);
+Console.Write(numbers[1]);
+Console.Write(numbers[2]);
+Console.Write(numbers[3]);
+Console.Write(numbers[4]);
 #endregion
